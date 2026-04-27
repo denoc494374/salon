@@ -7,7 +7,7 @@ use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
